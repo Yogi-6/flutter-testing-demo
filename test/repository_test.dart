@@ -70,6 +70,8 @@ void main() {
         ]);
 
         verifyNever(() => mockLocalDataSource.getUserDetails());
+
+        // Some assertion down here
       },
     );
   });
